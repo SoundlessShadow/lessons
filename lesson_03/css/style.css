@@ -1,0 +1,60 @@
+/* Сброс стилей */
+@import url("reset.css");
+
+/* Основной стиль */
+
+*{
+   /* font-size: 18px; */
+   color: black;
+}
+
+h1, #inform{
+   /* font-size: 28px; */
+   color: blue;
+}
+
+h2{
+   /* font-size: 24px; */
+   color: red;
+}
+
+.nav{
+   color: grey;
+}
+
+.button{
+   color: orange;
+}
+
+.text5 p{
+   color: blue;
+}
+
+[class*="sec"]{
+   color: green;
+}
+
+.text4 > p{
+   color: aqua;
+}
+
+.second ~ p{
+   color: blueviolet;
+}
+
+.first + p{
+   color: gold;
+}
+
+.first.third{
+   color: violet;
+}
+
+.text3 .first{
+   color: green;
+}
+
+.text6 *{
+   color: purple;
+}
+
