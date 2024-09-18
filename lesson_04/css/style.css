@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,600;1,600&display=swap');
+@import url("fonts.css");
+/* Сброс стилів */
+@import url("reset.css");
+
+/* Основний стиль */
+
+body{
+   font-size: 16px;
+}
+
+/* Шапка */
+
+.header{
+   text-align: center;
+}
+
+h1{
+   font-size: 48px;
+   color: rgba(0, 0, 255, 0.5);
+   text-shadow: 5px 5px 10px rgb(0, 150, 100);
+   word-spacing: 30px;
+   letter-spacing: 15px;
+}@import url(https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+/* Контейнер статті */
+
+mark{
+   text-decoration: none;
+   text-transform: none;
+}
+
+.article h2{
+   font-size: 24px;
+   font-style: oblique;
+   color: #010194;
+   line-height: 1.5;
+}
+
+.article__first{
+   font-weight: 600;
+}
+
+.article__second{
+   font-style: italic;
+   text-transform: uppercase;
+   text-align: center;
+   text-decoration: line-through;
+   line-height: 1.5;
+}
+
+.article__third-justify{
+   text-align: justify;
+}
+.article__third-justify p{
+   text-transform: capitalize;
+   white-space: pre;
+}
+
+.article__third-left{
+   text-align: left;
+}
+.article__third-left h2{
+   text-decoration: overline;
+   text-decoration-color: red;
+   text-decoration-style: dashed;
+}
+.article__third-left p{
+   text-transform: uppercase;
+}
+
+.article__third-right{
+   text-align: right;
+}
+.article__third-right h2{
+   text-decoration: underline red dotted;
+}
+.article__third-right p{
+   text-transform: lowercase;
+}
+
+/* Контейнер блоків */
+
+.blocks {
+   font-size: 18px;
+}
+
+.blocks__first {
+   font-family: "Work Sans", sans-serif;
+   color: #556070;
+   line-height: 24px;
+}
+.blocks__first h2{
+   font-size: 38px;
+   font-weight: 600;
+   color: #132238;
+   line-height: 50px;
+}
+
+.blocks__second {
+   font-family: "DM Sans 18pt", sans-serif;
+   font-size: 24px;
+   color: #474464;
+   line-height: 42px;
+}
+.blocks__second h2{
+   font-size: 88px;
+   color: #1E1B39;
+   font-weight: 700;
+   line-height: 95px;
+}
+
+.blocks__third {
+   font-family: "Roboto", sans-serif;
+   color: #505F98;
+   line-height: 30px;
+}
+.blocks__third h2{
+   font-size: 50px;
+   font-weight: 500;
+   color: #091133;
+   line-height: 66px;;
+}
