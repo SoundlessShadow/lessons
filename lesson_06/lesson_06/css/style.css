@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css?family=Manrope:regular,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Epilogue:regular,800&display=swap");
+/* Сброс стилів */
+@import url("reset.css");
+
+/* Основний стиль */
+
+body{
+   color: #fff;
+}
+
+.wrapper{
+   background-color: #000;
+}
+
+/* Header */
+
+.container__logo{
+   padding-block: 195px;
+   background-image: url("../img/image.png");
+   background: linear-gradient(180deg, #141414 0%, rgba(20, 20, 20, 0.00) 100%),
+               linear-gradient(180deg, rgba(20, 20, 20, 0.00) 0%, #141414 100%),
+               url(../img/container.png) no-repeat;
+}
+
+.image{
+   display: block;
+   margin: 0 auto;
+}
+
+.container__text{
+   margin: -1% auto;
+   margin-bottom: 200px;
+   text-align: center;
+   font-family: "Manrope", serif;
+   padding-inline: 24.5%;
+}
+
+.container__text h1{
+   font-size: 58px;
+   margin-block-end: 14px;
+}
+
+.container__text p{
+   color: #999999;
+   margin-block-end: 50px;
+}
+
+.button{
+   padding: 18px 24px;
+   background-color: red;
+   border-radius: 8px;
+}
+.button span{
+   background: url("../img/icon.png") left no-repeat;
+   padding-left: 28px;
+}
+
+/* Main */
+
+.container2 h2{
+      font-size: 48px;
+}
+
+.container2__figure{
+   margin: 0 10%;
+   padding-block: 10%;
+   padding-inline-start: 10%;
+   padding-inline-end: 30%;
+   border: 3px solid red;
+   border-radius: 30% 70% 70% 30% / 38% 44% 56% 62%;
+   background-color: rgba(138, 3, 3, 0.779);
+   outline: 4px solid rgb(255, 238, 0);
+   box-shadow: -15px -15px 25px rgb(255, 38, 0), -25px -25px 35px rgb(255, 255, 0);
+}
+
+.container2__figure2 {
+   margin: -3% 45%;
+   width: 50%;
+   max-height: 250px;
+   padding-block: 3%;
+   padding-inline: 20%;
+   border: 3px solid rgb(1, 60, 255);
+   border-radius: 51% 49% 64% 36% / 62% 93% 7% 38%;
+   background-color: rgba(0, 212, 254, 0.779);
+   outline: 4px solid rgb(68, 255, 0);
+   box-shadow: 15px 15px 25px rgb(119, 255, 0), 25px 25px 35px rgb(255, 255, 0);
+}
+
+.container2__figure3 {
+   background-color: rgb(251, 217, 28);
+   border-radius: 50%;
+   max-width: 300px;
+   max-height: 300px;
+   padding: 50px;
+   margin-bottom: 50px;
+   margin-inline-start: 20% ;
+   margin-block-start: -9%;
+   box-shadow: 25px 25px 40px rgb(255, 255, 0);
+
+}
+
+.smile{
+   max-width: 200px;
+}
+
+/* Footer */
+
+.container3{
+      background: #FDF0E9;
+      font-family: "Epilogue", serif;
+      padding: 200px 200px 100px ;
+      width: 100%;
+}
+
+.container3__text{
+   max-width: 29%;
+   margin-inline-end: 15%;
+}
+.container3__image{
+   max-width: 50%;
+   padding-inline: 15%;
+
+}
+.container3__text, .container3__image{
+   display: inline-block;
+   vertical-align: middle; 
+}
+
+.container3 span{
+   display: inline-block;
+   color: #EF6D58;
+   text-transform: uppercase ;
+   margin-block-end: 20px;
+}
+
+.container3 h2{
+   color: #391400;
+   font-size: 56px;
+   font-weight: 800;
+   margin-block-end: 26px;
+}
+
+.container3 p{
+   color: #391400;
+   margin-block-end: 24px;
+   font-size: 20px;
+}
+
+.container3 li{
+   background: url("../img/check.png") 0 0 / 35px no-repeat;
+   color: rgba(57, 20, 0, 0.64);
+   margin-block-end: 16px;
+   padding-block: 12px;
+   padding-inline-start: 48px;
+}
+
